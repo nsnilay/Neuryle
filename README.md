@@ -14,6 +14,8 @@ Install the dependencies
 Then run
 ``` python app.py ```
 
+Go to ``` localhost:5000 ``` in your web browser
+
 Select the User image i.e. the input image and then the Style image (the image whose style you need to put on the user image)
 Upload the images. (Currently, it supports jpg images)
 then click the 'Stylize' button
