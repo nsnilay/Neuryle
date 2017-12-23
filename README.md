@@ -11,6 +11,8 @@ go into the directory -
 Install the dependencies
 ``` sudo pip install -r requirements.txt ```
 
+Download imagenet-vgg-verydeep-19 weights from [here](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat) and save the file in ``` pretrained-model/ ``` directory
+
 Then run
 ``` python app.py ```
 
