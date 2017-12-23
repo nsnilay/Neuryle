@@ -1,0 +1,6 @@
+flask==0.12.2
+PIL==4.0.0
+tensorflow==1.2.0
+werkzeug==0.12.2
+numpy==1.11.3
+scipy==0.19.0
