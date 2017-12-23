@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <div class="jumbotron text-center" >
+    <h1>Welcome to Neuryle</h1>
+    <p class="lead"> This application helps you stylize your photos </p>
+  </div>
+
+  <style>
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px;
+    padding: 10px;
+}
+</style>
+
+
+    <h5> Stylized image </h5>
+     <div class='center'>
+      <img src = "{{ generated_image }}" alt="Generated Image" align='middle' />
+
+      </div>
+
+{% endblock %}
